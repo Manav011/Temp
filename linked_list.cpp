@@ -78,13 +78,3 @@ public:
     }
 };
 
-int main()
-{
-    Linked_list l;
-    l.insert_at_beginning(5);
-    l.insert_at_beginning(4);
-    l.insert_at_beginning(99);
-    l.insert_at_end(9999);
-    l.delete_element(5);
-    l.show();
-}
